@@ -3,12 +3,12 @@
 
 int main() 
 {
-    char hexString[100];
+    char hexString[100]; 
     long int Int;
     printf("Enter a hexadecimal number: ");
     scanf("%s", hexString);
     Int = strtol(hexString, NULL, 16);
-    //strtol:hàm dùng để chuyển đổi từ hệ 16 về hệ 10
+    //strtol: function used to convert from hexadecimal to decimal
     printf("Integer number: %ld\n", Int);
     
     return 0;
