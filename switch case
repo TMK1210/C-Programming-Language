@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() 
+{
+  int number;
+  
+  printf("Input a number: ");
+  scanf("%d", &number);
+
+  switch (number)
+  {
+    case 1: 
+      printf("The number you entered is 1");
+      break;
+    case 2:
+      printf("The number you entered is 2");
+      break;
+    case 3:
+      printf("The number you entered is 3");
+      break;
+    case 4:
+      printf("The number you entered is 4");
+      break;
+    case 5:
+      printf("The number you entered is 5");
+      break;
+    default:
+      printf("The number you entered is not in the range of 1 to 5");
+      break;
+  }
+
+  return 0;
+}
