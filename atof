@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float number;
+
+    printf("Enter a number: ");
+    if (scanf("%f", &number) == 1) {
+        printf("Float number: %f\n", number);
+    } 
+    else {
+        printf("Cannot change into float number.\n");
+    }
+
+    return 0;
+}
