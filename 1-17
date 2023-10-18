@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+#define LIMIT 10
+
+int main() 
+{
+    char line[LIMIT + 1]; 
+    int length = 0;
+
+    printf("Enter the paragraph:\n");
+
+    while (1) {
+        int c = getchar();
+        if (c == EOF || length >= LIMIT) {
+            if (length > 0) {
+                line[length] = '\0'; 
+                printf("%s", line);
+                length = 0;  
+            }
+            
+            if (c == EOF) {
+                break;  
+            }
+        } else {
+            line[length] = c;
+            length++;
+        }
+    }
+
+    return 0;
+}
