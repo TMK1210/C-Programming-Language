@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+#define CHIEUDAI 20
+#define CHIEURONG 16
+#define NEWLINE '\n'
+
+int main() 
+{
+    int dientich;
+
+    dientich = CHIEUDAI * CHIEURONG;
+    int chuvi = (CHIEUDAI + CHIEURONG) * 2;
+    printf("Diện tích hình chữ nhật là: %d", dientich);
+
+    return 0;
+}

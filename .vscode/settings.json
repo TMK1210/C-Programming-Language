@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "5-3": "c",
+        "stdio.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe"
+}
